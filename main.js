@@ -17,7 +17,7 @@ for (let key of keys) {
             operator = "";
             secondNumber = "";
             display_input.innerHTML = "";
-            display_input.innerHTML = "";
+            display_output.innerHTML = "";
         } else if (value == 'backspace') {
             input = input.slice(0, -1);
             display_input.innerHTML = input;
